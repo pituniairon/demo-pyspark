@@ -1,0 +1,7 @@
+pagecount*
+*.pem
+.vscode
+.DS_Store
+StepsToSetup
+DemoSixt4_hdi_settings.json
+json_converter.py
