@@ -10,9 +10,9 @@ MongoDB running on EC2 machine
 User: haduser
 
 ## MongoDB details
-Database Name:  demoDB
-Port:           27017 (default)
-Collection:     wikipedia_stats
+* Database Name:  demoDB
+* Port:           27017 (default)
+* Collection:     wikipedia_stats
 
 ## Script to run the application
 ~/code_file/getMonthlyFile.sh
