@@ -21,6 +21,7 @@ Collection:     wikipedia_stats
 ~/code_file/demoPickMonthlyData.py
 
 ## Sample of MongoDB data post analysis
+```json
 {
 	"_id" : ObjectId("5a13b95a471c37466786a43b"),
 	"language" : "fa.voy",
@@ -39,8 +40,10 @@ Collection:     wikipedia_stats
 	"total_hits" : NumberLong(2347),
 	"average_pagesize" : NumberLong(4771632)
 }
-
+```
 ## Number of rows in MongoDB post analysis of 6 files
-> db.wikipedia_stats.find().count();
+```javascript
+db.wikipedia_stats.find().count();
 1239
+```
 
